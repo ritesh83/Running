@@ -1,0 +1,20 @@
+body {
+	background-image:url('../running_background.jpg');
+	background-size: cover;
+}
+
+.jumbotron {
+	color: wheat;
+	background-color: rgba(38,71,101,0.4);
+}
+
+.well1 {
+	color: wheat;
+	background-color: rgba(38,71,101,0.4);
+	border: none;
+	padding: 10px;
+}
+
+p {
+	font-size: 20px;
+}

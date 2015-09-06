@@ -1,0 +1,10 @@
+<div class="row">
+	  {{#each model as |run|}}
+        <div class="col-xs-6 col-md-3">
+            {{#link-to 'details' run class="thumbnail"}}
+                <img src={{run.image}} alt={{run.location}}>
+                <h3 style="text-align:center">{{run.name}}</h3>
+            {{/link-to}}
+        </div>
+	  {{/each}}  
+</div>
